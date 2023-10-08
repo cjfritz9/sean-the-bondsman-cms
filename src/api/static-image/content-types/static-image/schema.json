@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "static_images",
+  "info": {
+    "singularName": "static-image",
+    "pluralName": "static-images",
+    "displayName": "StaticImage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Title": {
+      "type": "string"
+    }
+  }
+}
